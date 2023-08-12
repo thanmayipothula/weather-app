@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="./favicon.jpeg" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="weather2.css" rel="stylesheet"/>
+    <script src="weather.js"></script>
+</head>
+<body>
+    <div class="container">
+       <div class="heading"> 
+        <h2>WEATHER FORECAST</h2>
+        <p>Weather forecast app provides detailed local forecast & weather forecast world wide.</p>
+       </div>
+       <div class="top">
+        <div class="search">
+            <input id="icity" type="text" placeholder="enter the city">
+            <button onclick="search()"><i class="fa fa-search"></i></button>
+           </div>
+       </div>
+       <div class="header">
+        <br>
+        <br>
+        <img src="./clear.png" class="image">
+        <br>
+        <br>
+           <div id="name" class="cname"></div>
+           <br>
+           <div class="mxtemp">max_temp=<span id="maxtemp">__</span>°c</div>
+           <div class="mtemp">min_temp=<span id="mintemp">__</span>°c</div>
+           <div class="data">
+            <div class="c">
+                <img src="./humidity.jpeg"/>
+                <div class="humidity">Humidity=<span id="hum">__</span>%</div>
+               </div>
+              <div class="d">
+                <img src="./wind.jpg"/>
+                <div class="wind">Wind Speed=<span id="speed">__</span>kmh</div>
+              </div>
+           </div>
+           <br>
+           <br>
+          
+       </div>
+    </div>
+</body>
+</html>

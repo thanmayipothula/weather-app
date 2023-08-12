@@ -1,0 +1,89 @@
+body{
+    background-color: #377E9B;
+    font-family: sans-serif;
+}
+.heading{
+    text-align: center;
+    color:white;
+}
+.top{
+    width:20%;
+    height:20px;
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding:40 px 40 px;
+    text-align: center;
+}
+.search{
+    align-items:center;
+    justify-content:space-between;
+}
+.search input{
+    border-radius:30px;
+    align-items:center;
+    padding :10px 25px;
+}
+.search button{
+    border-radius: 20px;
+    height:30px;
+}
+.header{
+    width:30%;
+    height:450px;
+    background-color:#4188a5;
+    margin:70px auto 0;
+    border-radius: 20px;
+    padding:30 px 30 px;
+    text-align: center;
+}
+img{
+    height:100px;
+    width:20%;
+    border-radius: 20px;
+}
+.mxtemp{
+    color:white;
+    font-size:20px;
+}
+.mtemp{
+    color:white;
+    font-size:20px;
+}
+.humidity{
+    color:white;
+    font-size:15px;
+}
+.wind{
+    color:white;
+    font-size:15px;
+}
+.data{
+    display:flex;
+    align-items:center;
+    padding :0 20px;
+    justify-content:space-between;
+    margin-top:50px;
+}
+.cname{
+    color:white;
+    font-size: 30px;
+}
+.c img{
+    width:60%;
+    margin-right:10px;
+    height:60px; 
+}
+.d img{
+    width:65%;
+    margin-right:10px;
+    height:60px; 
+}
+.buttons{
+    text-align:center;
+    border-radius:1 rem;
+}
+.buttons button{
+    border-radius: 20px;
+    height:20px;
+    
+}
